@@ -1,0 +1,38 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.img-size {
+  width: 800px;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.list-container {
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .img-size {
+    width: 80%;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.thumb-active {
+  opacity: 0.5;
+}
+
+.thumb-container {
+  list-style-type: none;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.btn-style {
+  background-color: transparent;
+  border: 0px;
+}
